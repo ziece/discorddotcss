@@ -1,0 +1,70 @@
+:root{
+    --discordblue: #016064;
+}
+body{
+    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:white;
+    margin: 0;
+}
+.banner{
+    font-size: 36px;
+    text-transform: uppercase;
+    display: inline-block;
+    transform: scale(1.4, 1.1);
+    padding-top: 60px;
+    padding-bottom: -30px;
+}
+.herotext{
+    font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 27px;
+}
+.container{
+    background: var(--discordblue);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding-bottom: 210px;
+}
+.content{
+    margin: 0px 100px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    display: inline-block;
+    transform: scale(1.1, 1.1);
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 30px;
+}
+li:hover{
+    text-decoration: underline;
+}
+.navigation{
+    background-color: var(--discordblue);
+    padding: 10px 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.navigation ul{
+    padding-left: 0px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.herocontainer svg{
+    position: absolute;
+}
+.heropura{
+    width: 450px;
+    top: 213px;
+    left: 262px;
+}
+.herobatur{
+    width:365px;
+    top: 150px;
+    left: -300px;
+}
