@@ -7,27 +7,29 @@ body{
     margin: 0;
 }
 .banner{
+    margin: 0px;
     font-size: 36px;
     text-transform: uppercase;
     display: inline-block;
-    padding: 60px ;
-    padding-top: 60px;
-    padding-bottom: -30px;
-    margin-bottom: 400px;
+    padding: 0px 100%;
     background: var(--discordblue);
+}
+.herocontainer{
+    background-color: red;
+    margin: 0px;
+    
 }
 .herotext{
     font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 800;
-    margin-bottom: 27px;
     transform: scale(1.4, 1.1);
+    margin: 0px;
+    padding: 0px;
 }
 .container{
     margin: 0px;
     padding: 0px;
     text-align: center;
-    padding-bottom: 210px;
-    display: flexbox;
 }
 .content{
     margin: 0px 100px;
@@ -61,26 +63,4 @@ a{
 .herocontainer svg{
     position: absolute;
     top: 40px;
-}
-.herocontainer{
-    position: absolute;
-    top: 300px;
-    left: 500px;
-}
-.heropura{
-    width: 450px;
-}
-.herobatur{
-    width:365px;
-    left: -300px;
-}
-.heroithiasa{
-    position: absolute;
-    width: 200px;
-    top: 800px;
-    left: 90px;
-    margin: 100px 0px;
-}
-.desc{
-    
 }
