@@ -21,14 +21,22 @@ body{
     float: left;
 }
 .content div div{
-    background-color: black;
-    display: inline;
+    background-color: white;
     padding: 0px 0px;
+    display: inline;
     width: 50%;
-    height: 15cm;
+    height: 10cm;
     float: left;
 }
 .contact{
     background: gray;
     padding: 50px 0px;
+}
+.text p{
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0px 120px;
+    position: relative;
+    top: 110px;
 }
