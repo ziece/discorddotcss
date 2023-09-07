@@ -1,13 +1,32 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     color: white;
     background-color: black;
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .banner{
-    background: gray;
-    padding: 300px 0px;
+    background: rgb(37, 113, 255) url("images/bg1.jpg") no-repeat fixed center;
+    background-size: 100%;
+    height: 100vh;
+    padding: 0px 0px;
+    overflow: hidden;
+}
+.title{
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    transform: scale(1.4, 1.1);
+    top: 170px;
+    font-size: 70px;
+    font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 .content{
     background: black;
@@ -27,16 +46,65 @@ body{
     width: 50%;
     height: 10cm;
     float: left;
-}
-.contact{
-    background: gray;
-    padding: 50px 0px;
+    padding: 40px 0px;
 }
 .text p{
     color: black;
-    text-align: center;
+    text-align: justify;
     text-transform: capitalize;
     margin: 0px 120px;
     position: relative;
-    top: 110px;
+    top: 90px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    transform: scale(1.1, 1.1);
+}
+.nav{
+    list-style: none;
+    text-align: center;
+    margin: 40px 0px;
+    padding: 0px;
+}
+.nav li{
+    opacity: 0.8;
+    background: black;
+    display: inline-block;
+    margin: 0px 10px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 400ms;
+}
+.nav li:hover{
+    background-color: white;
+}
+.image{
+    position: relative;
+    left: 100px;
+    width: 500px;
+    bottom: -80px;
+}
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fade-out{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+::view-transition-old(root){
+    animation: fade-out 0.5s cubic-bezier(0,0,0.2,1);
+}
+::view-transition-new(root){
+    animation: fade-in 0.5s cubic-bezier(0,0,0.2,1);
+    mix-blend-mode: normal;
 }

@@ -3,55 +3,65 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Main</title>
-        <link rel="stylesheet" href="style/ithiasa.css">
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="view-transition" content="same-origin"/>
     </head>
+    <style>
+        .content div div{
+            height: 19cm;
+        }
+        .banner{
+            background-image: url(images/bg2.jpg);
+        }
+        .image{
+            width: 300px;
+            left: 200px;
+            bottom: -150px;
+        }
+    </style>
     <body>
-        <header>
-            <nav class="navigation">
-                <ul>
-                    <strong>
-                        <li>
-                            <a href="index.html">upaweda</a>
-                        </li>
-                        <li>
-                            <a href="ithiasa.html">ithiasa</a>
-                        </li>
-                        <li>
-                            <a href="purana.html">purana</a>
-                        </li>
-                        <li>
-                            <a href="arthasastra.html">artasastra</a>
-                        </li>
-                        <li>
-                            <a href="ayurweda.html">ayurweda</a>
-                        </li>
-                        <li>
-                            <a href="ghandharwa.html">ghandharwa</a>
-                        </li>
-                        <li>
-                            <a href="kamasastra.html">kama sastra</a>
-                        </li>
-                        <li>
-                            <a href="agama.html">agama</a>
-                        </li>
-                    </strong>
+        <header class="banner">
+            <div class="pages">
+                <ul class="nav">
+                    <a href="index.html"><li>1</li></a>
+                    <li>2</li>
+                    <a href="purana.html"><li>3</li></a>
+                    <a href="arthasastra.html"><li>4</li></a>
+                    <a href="ayurweda.html"><li>5</li></a>
+                    <a href="ghandharwa.html"><li>6</li></a>
+                    <a href="kamasastra.html"><li>7</li></a>
+                    <a href="agama.html"><li>8</li></a>
                 </ul>
-            </nav>
+            </div>
+            <div class="title">
+                <span>
+                    kitab ithiasa
+                </span>
+            </div>
         </header>
-        <div>
-            <div class="banner">
-                <div class="herocontainer">
-                    <div>
-                        <h1 class="herotext">
-                            <span>kitab upaweda</span>
-                        </h1>
-                    </div>
+        <section class="content">
+            <div class="container">
+                <div class="imagecontainer">
+                    <img src="images/godhero.png" alt="ganesha" class="image">
+                </div>
+                <div class="text">
+                    <p>
+                        Ditinjau dari arti. Itihasa berasal dari kata "Iti",
+                        "ha" dan "asa" artinya adalah "sesungguhnya kejadian itu begitulah nyatanya"
+                        maka Mahabharata itu gambaran sejarah yang memuat mengenai
+                        kehidupan keagamaan, sosial dan politik menurut ajaran Hindu.
+                        Kitab Mahabharata meliputi 18 Parwa, yaitu Adiparwa,
+                        Sabhaparwa,Wanaparwa, Wirataparwa, Udyogaparwa, Bhismaparwa,
+                        Dronaparwa, Karnaparwa, Salyaparwa, Sauptikaparwa, Santiparwa,
+                        Anusasanaparwa, Aswamedhikaparwa, Asramawasikaparwa,
+                        Mausalaparwa, Mahaprastanikaparwa, dan Swargarohanaparwa.
+                        Diantara parwa-parwa tersebut, terutama di dalam Bhismaparwa
+                        terdapatlah kitab Bhagavad Gita, yang amat mashyur isinya adalah
+                        wejangan Sri Krsna kepada Arjuna tentang ajaran filsafat yang amat tinggi.
+                    </p>
                 </div>
             </div>
-        </div>
-        <div>
-
-        </div>
+        </section>
     </body>
 </html>
